@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_121424_la_statewide_hydrological_summary_l",
+  "scope": "US/AL",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T12:14:24.177697Z",
+  "topic": "LA statewide hydrological summary: Louisiana deltaic surface",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
