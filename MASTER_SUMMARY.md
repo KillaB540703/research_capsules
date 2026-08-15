@@ -1,8 +1,8 @@
 # Master Research Summary
 
-*Compiled automatically on: 2026-08-15 10:52:01*
+*Compiled automatically on: 2026-08-15 10:52:10*
 
-Total indexed records: **28**
+Total indexed records: **29**
 
 ---
 
@@ -24,6 +24,7 @@ Total indexed records: **28**
 - **US/VA/hydrology_aquifers/20260815_105131_richmond_fall_line_corridor_urban_r.json**
 - **US/VA/hydrology_aquifers/20260815_105149_confined_aquifer_system_hampton_roa.json**
 - **US/VA/hydrology_aquifers/20260815_105158_york-james_peninsula_groundwater_st.json**
+- **US/VA/hydrology_aquifers/20260815_105207_eastern_shore_surficial__confined_a.json**
 - **US/VA/surface_water/20260815_103533_james_river_watershed_flow_and_stor.json**
 - **US/VA/surface_water/20260815_103541_roanoke_river_basin_hydrological_st.json**
 - **US/VA/surface_water/20260815_104953_shenandoah_valley_karst_aquifer_sou.json**
