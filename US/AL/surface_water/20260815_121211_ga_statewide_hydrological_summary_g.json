@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_121211_ga_statewide_hydrological_summary_g",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T12:12:11.869262Z",
+  "topic": "GA statewide hydrological summary: Georgia river basin stora",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
