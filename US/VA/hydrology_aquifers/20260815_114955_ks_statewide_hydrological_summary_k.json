@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114955_ks_statewide_hydrological_summary_k",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T11:49:55.691278Z",
+  "topic": "KS statewide hydrological summary: Kansas high plains aquife",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
