@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_115443_al_statewide_hydrological_summary_a",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:54:43.730377Z",
+  "topic": "AL statewide hydrological summary: Alabama surface water and",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}

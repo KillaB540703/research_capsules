@@ -1,18 +1,19 @@
 # National Hydrological Ledger & Water Balance Summary
 
-*Compiled automatically on: 2026-08-15 11:54:10 | Baseline: Decadal Historical Normal*
+*Compiled automatically on: 2026-08-15 11:54:45 | Baseline: Decadal Historical Normal*
 
 ## United States (National Aggregate)
 - **National Status:** MODERATE DEFICIENT
-- **Net National Average Deviation:** -0.6 ft vs. Historical Baseline
-- **Active Reporting States:** 2 / 50
+- **Net National Average Deviation:** -0.5 ft vs. Historical Baseline
+- **Active Reporting States:** 3 / 50
 
 ---
 
 ## 50-State Ledger Breakdown
 
 ### 1. AL
-- **Status:** UNAVAILABLE AT THIS TIME
+- **Status:** BALANCED / BASELINE
+- **Net Deviation:** -0.3 ft
 
 ### 2. AK
 - **Status:** UNAVAILABLE AT THIS TIME
