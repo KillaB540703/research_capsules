@@ -1,8 +1,8 @@
 # Master Research Summary
 
-*Compiled automatically on: 2026-08-15 10:52:30*
+*Compiled automatically on: 2026-08-15 10:52:38*
 
-Total indexed records: **31**
+Total indexed records: **32**
 
 ---
 
@@ -37,5 +37,6 @@ Total indexed records: **31**
 - **US/VA/surface_water/20260815_105121_southside_virginia_piedmont_dan_riv.json**
 - **US/VA/surface_water/20260815_105139_coastal_plain_unconfined_aquifer_sy.json**
 - **US/VA/surface_water/20260815_105226_potomac-shenandoah_basin_flow_analy.json**
+- **US/VA/surface_water/20260815_105236_rappahannock_river_basin_discharge_.json**
 - **GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json**
 - **GLOBAL/GENERAL/hydrology_aquifers/20260815_103526_rappahannock_basin_groundwater_tren.json**

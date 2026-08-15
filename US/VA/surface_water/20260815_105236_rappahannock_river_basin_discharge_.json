@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105236_rappahannock_river_basin_discharge_",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:52:36.119639Z",
+  "topic": "Rappahannock River Basin Discharge: Mid-basin flow rates mee",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
