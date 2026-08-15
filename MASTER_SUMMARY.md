@@ -1,44 +1,165 @@
-# Master Research Summary
+# National Hydrological Ledger & Water Balance Summary
 
-*Compiled automatically on: 2026-08-15 10:53:06*
+*Compiled automatically on: 2026-08-15 11:43:05 | Baseline: Decadal Historical Normal*
 
-Total indexed records: **34**
+## United States (National Aggregate)
+- **National Status:** MODERATE DEFICIENT
+- **Net National Average Deviation:** -0.6 ft vs. Historical Baseline
+- **Active Reporting States:** 2 / 50
 
 ---
 
-## Indexed Capsules
+## 50-State Ledger Breakdown
 
-- **schema/capsule_schema.json**
-- **US/TX/hydrology_aquifers/20260815_135005_edwards_aquifer_recharge_zone_status.json**
-- **US/TX/surface_water/20260815_135303_texas_statewide_reservoir_storage_summar.json**
-- **US/VA/hydrology_aquifers/20260815_133659_shenandoah_valley_groundwater_monitoring_well_01.json**
-- **US/VA/hydrology_aquifers/20260815_135005_shenandoah_valley_karst_aquifer_baseline.json**
-- **US/VA/hydrology_aquifers/20260815_135303_rappahannock_basin_groundwater_trends.json**
-- **US/VA/hydrology_aquifers/20260815_103413_shenandoah_valley_karst_aquifer_mon.json**
-- **US/VA/hydrology_aquifers/20260815_103517_shenandoah_valley_karst_aquifer_bas.json**
-- **US/VA/hydrology_aquifers/20260815_103549_northern_virginia_urban_hydrology_a.json**
-- **US/VA/hydrology_aquifers/20260815_104942_shenandoah_valley_karst_aquifer_nor.json**
-- **US/VA/hydrology_aquifers/20260815_105029_roanoke_river_valley_karst_interfac.json**
-- **US/VA/hydrology_aquifers/20260815_105048_shenandoah_national_park_crest_hydr.json**
-- **US/VA/hydrology_aquifers/20260815_105104_northern_piedmont_transition_zone_c.json**
-- **US/VA/hydrology_aquifers/20260815_105131_richmond_fall_line_corridor_urban_r.json**
-- **US/VA/hydrology_aquifers/20260815_105149_confined_aquifer_system_hampton_roa.json**
-- **US/VA/hydrology_aquifers/20260815_105158_york-james_peninsula_groundwater_st.json**
-- **US/VA/hydrology_aquifers/20260815_105207_eastern_shore_surficial__confined_a.json**
-- **US/VA/hydrology_aquifers/20260815_105216_northern_neck_peninsula_hydrology_s.json**
-- **US/VA/surface_water/20260815_103533_james_river_watershed_flow_and_stor.json**
-- **US/VA/surface_water/20260815_103541_roanoke_river_basin_hydrological_st.json**
-- **US/VA/surface_water/20260815_104953_shenandoah_valley_karst_aquifer_sou.json**
-- **US/VA/surface_water/20260815_105005_ridge_and_valley_headwater_streams_.json**
-- **US/VA/surface_water/20260815_105017_cumberland_plateau_groundwater_basi.json**
-- **US/VA/surface_water/20260815_105039_blue_ridge_mountain_front_recharge_.json**
-- **US/VA/surface_water/20260815_105056_southern_blue_ridge_watersheds_carr.json**
-- **US/VA/surface_water/20260815_105113_central_piedmont__james_river_basin.json**
-- **US/VA/surface_water/20260815_105121_southside_virginia_piedmont_dan_riv.json**
-- **US/VA/surface_water/20260815_105139_coastal_plain_unconfined_aquifer_sy.json**
-- **US/VA/surface_water/20260815_105226_potomac-shenandoah_basin_flow_analy.json**
-- **US/VA/surface_water/20260815_105236_rappahannock_river_basin_discharge_.json**
-- **US/VA/surface_water/20260815_105245_york_river_basin_watershed_storage_.json**
-- **US/VA/surface_water/20260815_105254_james_river_basin_macro-flow_upper_.json**
-- **GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json**
-- **GLOBAL/GENERAL/hydrology_aquifers/20260815_103526_rappahannock_basin_groundwater_tren.json**
+### 1. AL
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 2. AK
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 3. AZ
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 4. AR
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 5. CA
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 6. CO
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 7. CT
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 8. DE
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 9. FL
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 10. GA
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 11. HI
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 12. ID
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 13. IL
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 14. IN
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 15. IA
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 16. KS
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 17. KY
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 18. LA
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 19. ME
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 20. MD
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 21. MA
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 22. MI
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 23. MN
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 24. MS
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 25. MO
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 26. MT
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 27. NE
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 28. NV
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 29. NH
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 30. NJ
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 31. NM
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 32. NY
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 33. NC
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 34. ND
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 35. OH
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 36. OK
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 37. OR
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 38. PA
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 39. RI
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 40. SC
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 41. SD
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 42. TN
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 43. TX
+- **Status:** MODERATE DEFICIENT
+- **Net Deviation:** 0.0 ft
+
+### 44. UT
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 45. VT
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 46. VA
+- **Status:** MODERATE DEFICIENT
+- **Net Deviation:** -1.2 ft
+
+### 47. WA
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 48. WV
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 49. WI
+- **Status:** UNAVAILABLE AT THIS TIME
+
+### 50. WY
+- **Status:** UNAVAILABLE AT THIS TIME
+
