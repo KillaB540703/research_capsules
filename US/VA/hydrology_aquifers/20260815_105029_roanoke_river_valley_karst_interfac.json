@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105029_roanoke_river_valley_karst_interfac",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T10:50:29.329387Z",
+  "topic": "Roanoke River Valley Karst Interface: Valley floor monitorin",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}

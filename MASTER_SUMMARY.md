@@ -1,8 +1,8 @@
 # Master Research Summary
 
-*Compiled automatically on: 2026-08-15 10:50:21*
+*Compiled automatically on: 2026-08-15 10:50:32*
 
-Total indexed records: **17**
+Total indexed records: **18**
 
 ---
 
@@ -18,6 +18,7 @@ Total indexed records: **17**
 - **US/VA/hydrology_aquifers/20260815_103517_shenandoah_valley_karst_aquifer_bas.json**
 - **US/VA/hydrology_aquifers/20260815_103549_northern_virginia_urban_hydrology_a.json**
 - **US/VA/hydrology_aquifers/20260815_104942_shenandoah_valley_karst_aquifer_nor.json**
+- **US/VA/hydrology_aquifers/20260815_105029_roanoke_river_valley_karst_interfac.json**
 - **US/VA/surface_water/20260815_103533_james_river_watershed_flow_and_stor.json**
 - **US/VA/surface_water/20260815_103541_roanoke_river_basin_hydrological_st.json**
 - **US/VA/surface_water/20260815_104953_shenandoah_valley_karst_aquifer_sou.json**

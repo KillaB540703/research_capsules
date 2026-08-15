@@ -40,7 +40,7 @@
         "findings"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:17.781506"
+    "indexed_at": "2026-08-15T10:50:29.458716"
   },
   {
     "path": "US/TX/hydrology_aquifers/20260815_135005_edwards_aquifer_recharge_zone_status.json",
@@ -55,7 +55,7 @@
         "Texas Water Development Board"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:19.861431"
+    "indexed_at": "2026-08-15T10:50:31.359005"
   },
   {
     "path": "US/TX/surface_water/20260815_135303_texas_statewide_reservoir_storage_summar.json",
@@ -69,7 +69,7 @@
         "Texas Water Development Board (TWDB) Daily Reservoir Report"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:19.877622"
+    "indexed_at": "2026-08-15T10:50:31.369260"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_133659_shenandoah_valley_groundwater_monitoring_well_01.json",
@@ -84,7 +84,7 @@
         "State Hydrology Department logs"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:20.016106"
+    "indexed_at": "2026-08-15T10:50:31.478508"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_135005_shenandoah_valley_karst_aquifer_baseline.json",
@@ -99,7 +99,7 @@
         "Virginia DEQ"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:20.020604"
+    "indexed_at": "2026-08-15T10:50:31.483824"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_135303_rappahannock_basin_groundwater_trends.json",
@@ -114,7 +114,7 @@
         "Virginia Hydrology Archives"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:20.025139"
+    "indexed_at": "2026-08-15T10:50:31.491269"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_103413_shenandoah_valley_karst_aquifer_mon.json",
@@ -125,7 +125,7 @@
       "timestamp": "2026-08-15T10:34:13.805299",
       "content": "Shenandoah Valley karst aquifer monitoring notes: water table levels showing a 1.2 foot drop near local agricultural wells during the summer dry spell."
     },
-    "indexed_at": "2026-08-15T10:50:20.029512"
+    "indexed_at": "2026-08-15T10:50:31.496092"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_103517_shenandoah_valley_karst_aquifer_bas.json",
@@ -136,7 +136,7 @@
       "timestamp": "2026-08-15T10:35:17.590569",
       "content": "Shenandoah Valley Karst Aquifer Baseline: Comprehensive assessment of limestone and dolomite rock formations across Rockingham, Augusta, and Page counties, mapping underground conduit flow and spring discharge rates."
     },
-    "indexed_at": "2026-08-15T10:50:20.034263"
+    "indexed_at": "2026-08-15T10:50:31.502785"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_103549_northern_virginia_urban_hydrology_a.json",
@@ -147,7 +147,7 @@
       "timestamp": "2026-08-15T10:35:49.119427",
       "content": "Northern Virginia Urban Hydrology and Aquifer Stress: Assessment of impervious surface runoff impact on local shallow water tables, suburban drainage systems, and stormwater management baselines."
     },
-    "indexed_at": "2026-08-15T10:50:20.038751"
+    "indexed_at": "2026-08-15T10:50:31.507486"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_104942_shenandoah_valley_karst_aquifer_nor.json",
@@ -162,7 +162,22 @@
         "Automated Field Notes Extraction"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:20.043351"
+    "indexed_at": "2026-08-15T10:50:31.511925"
+  },
+  {
+    "path": "US/VA/hydrology_aquifers/20260815_105029_roanoke_river_valley_karst_interfac.json",
+    "data": {
+      "capsule_id": "20260815_105029_roanoke_river_valley_karst_interfac",
+      "scope": "US/VA",
+      "domain": "hydrology_aquifers",
+      "timestamp": "2026-08-15T10:50:29.329387Z",
+      "topic": "Roanoke River Valley Karst Interface: Valley floor monitorin",
+      "sources": [
+        "Smart Ingest Research Pipeline",
+        "Automated Field Notes Extraction"
+      ]
+    },
+    "indexed_at": "2026-08-15T10:50:31.516151"
   },
   {
     "path": "US/VA/surface_water/20260815_103533_james_river_watershed_flow_and_stor.json",
@@ -173,7 +188,7 @@
       "timestamp": "2026-08-15T10:35:33.280334",
       "content": "James River Watershed Flow and Storage Analysis: Evaluation of upper and middle James River basin storage capacities, surface runoff metrics, and municipal intake flow stability during peak summer demand."
     },
-    "indexed_at": "2026-08-15T10:50:20.052543"
+    "indexed_at": "2026-08-15T10:50:31.525478"
   },
   {
     "path": "US/VA/surface_water/20260815_103541_roanoke_river_basin_hydrological_st.json",
@@ -184,7 +199,7 @@
       "timestamp": "2026-08-15T10:35:41.290687",
       "content": "Roanoke River Basin Hydrological Status: Tracking reservoir levels, inflow-outflow metrics, and watershed health indicators across the southwestern Virginia plateau and regional tributary networks."
     },
-    "indexed_at": "2026-08-15T10:50:20.056491"
+    "indexed_at": "2026-08-15T10:50:31.529383"
   },
   {
     "path": "US/VA/surface_water/20260815_104953_shenandoah_valley_karst_aquifer_sou.json",
@@ -199,7 +214,7 @@
         "Automated Field Notes Extraction"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:20.062640"
+    "indexed_at": "2026-08-15T10:50:31.533362"
   },
   {
     "path": "US/VA/surface_water/20260815_105005_ridge_and_valley_headwater_streams_.json",
@@ -214,7 +229,7 @@
         "Automated Field Notes Extraction"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:20.069933"
+    "indexed_at": "2026-08-15T10:50:31.537124"
   },
   {
     "path": "US/VA/surface_water/20260815_105017_cumberland_plateau_groundwater_basi.json",
@@ -229,7 +244,7 @@
         "Automated Field Notes Extraction"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:20.076961"
+    "indexed_at": "2026-08-15T10:50:31.540995"
   },
   {
     "path": "GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json",
@@ -243,7 +258,7 @@
         "International Boundary and Water Commission (IBWC)"
       ]
     },
-    "indexed_at": "2026-08-15T10:50:20.302251"
+    "indexed_at": "2026-08-15T10:50:31.738709"
   },
   {
     "path": "GLOBAL/GENERAL/hydrology_aquifers/20260815_103526_rappahannock_basin_groundwater_tren.json",
@@ -254,6 +269,6 @@
       "timestamp": "2026-08-15T10:35:26.102467",
       "content": "Rappahannock Basin Groundwater Trends: Monitoring well network analysis indicating stable water table recharge rates following seasonal precipitation events, with minor localized drawdowns near agricultural irrigation zones."
     },
-    "indexed_at": "2026-08-15T10:50:20.319410"
+    "indexed_at": "2026-08-15T10:50:31.754856"
   }
 ]
