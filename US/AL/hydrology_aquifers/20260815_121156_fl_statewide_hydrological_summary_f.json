@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_121156_fl_statewide_hydrological_summary_f",
+  "scope": "US/AL",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T12:11:56.793220Z",
+  "topic": "FL statewide hydrological summary: Florida regional aquifer ",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
