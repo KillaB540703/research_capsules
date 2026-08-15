@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_121644_mt_statewide_hydrological_summary_m",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T12:16:44.325530Z",
+  "topic": "MT statewide hydrological summary: Montana mountain snowpack",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
