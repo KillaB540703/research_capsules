@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105121_southside_virginia_piedmont_dan_riv",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:51:21.930857Z",
+  "topic": "Southside Virginia Piedmont (Dan River Basin): Agricultural ",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
