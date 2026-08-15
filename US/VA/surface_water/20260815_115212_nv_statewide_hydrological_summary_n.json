@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115212_nv_statewide_hydrological_summary_n",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:52:12.587452Z",
+  "topic": "NV statewide hydrological summary: Nevada regional basin sto",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
