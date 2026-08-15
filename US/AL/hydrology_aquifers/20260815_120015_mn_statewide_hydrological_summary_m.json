@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_120015_mn_statewide_hydrological_summary_m",
+  "scope": "US/AL",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T12:00:15.289536Z",
+  "topic": "MN statewide hydrological summary: Minnesota northern waters",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
