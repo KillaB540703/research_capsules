@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105113_central_piedmont__james_river_basin",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:51:13.755788Z",
+  "topic": "Central Piedmont / James River Basin (Albemarle/Nelson): Sta",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
