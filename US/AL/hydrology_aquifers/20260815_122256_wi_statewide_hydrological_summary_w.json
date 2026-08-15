@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_122256_wi_statewide_hydrological_summary_w",
+  "scope": "US/AL",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T12:22:56.830864Z",
+  "topic": "WI statewide hydrological summary: Wisconsin northern lake l",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
