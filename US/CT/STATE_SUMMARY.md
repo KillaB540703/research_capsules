@@ -1,6 +1,6 @@
 # State Hydrological Ledger: CT
 
-*Compiled automatically on: 2026-08-15 11:57:34*
+*Compiled automatically on: 2026-08-15 11:57:47*
 
 ## Consolidated State Metrics
 - **State Status:** UNAVAILABLE AT THIS TIME
