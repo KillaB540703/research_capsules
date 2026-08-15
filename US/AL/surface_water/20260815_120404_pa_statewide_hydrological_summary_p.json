@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_120404_pa_statewide_hydrological_summary_p",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T12:04:04.767858Z",
+  "topic": "PA statewide hydrological summary: Pennsylvania Susquehanna ",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
