@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_120620_wy_statewide_hydrological_summary_w",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T12:06:20.921917Z",
+  "topic": "WY statewide hydrological summary: Wyoming high-elevation he",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
