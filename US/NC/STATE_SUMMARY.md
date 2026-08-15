@@ -1,6 +1,6 @@
 # State Hydrological Ledger: NC
 
-*Compiled automatically on: 2026-08-15 11:49:56*
+*Compiled automatically on: 2026-08-15 11:50:08*
 
 ## Consolidated State Metrics
 - **State Status:** UNAVAILABLE AT THIS TIME

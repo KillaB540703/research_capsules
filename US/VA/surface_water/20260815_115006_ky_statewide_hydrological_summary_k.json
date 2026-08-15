@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115006_ky_statewide_hydrological_summary_k",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:50:07.003451Z",
+  "topic": "KY statewide hydrological summary: Kentucky river basin disc",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
