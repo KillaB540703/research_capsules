@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105005_ridge_and_valley_headwater_streams_",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:50:05.407665Z",
+  "topic": "Ridge and Valley Headwater Streams: High-elevation catchment",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
