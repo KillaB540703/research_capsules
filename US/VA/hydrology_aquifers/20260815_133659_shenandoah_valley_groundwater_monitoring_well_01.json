@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_133659_shenandoah_valley_groundwater_monitoring_well_01",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T13:36:59.721252Z",
+  "topic": "Shenandoah Valley Groundwater Monitoring Well 01",
+  "sources": [
+    "USGS National Water Information System",
+    "State Hydrology Department logs"
+  ]
+}

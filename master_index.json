@@ -1,0 +1,66 @@
+[
+  {
+    "capsule_id": "20260815_135005_edwards_aquifer_recharge_zone_status",
+    "scope": "US/TX",
+    "domain": "hydrology_aquifers",
+    "timestamp": "2026-08-15T13:50:05.978429Z",
+    "topic": "Edwards Aquifer Recharge Zone Status",
+    "sources": [
+      "Edwards Aquifer Authority",
+      "Texas Water Development Board"
+    ]
+  },
+  {
+    "capsule_id": "20260815_135303_texas_statewide_reservoir_storage_summar",
+    "scope": "US/TX",
+    "domain": "surface_water",
+    "timestamp": "2026-08-15T13:53:03.193723Z",
+    "topic": "Texas Statewide Reservoir Storage Summary",
+    "sources": [
+      "Texas Water Development Board (TWDB) Daily Reservoir Report"
+    ]
+  },
+  {
+    "capsule_id": "20260815_133659_shenandoah_valley_groundwater_monitoring_well_01",
+    "scope": "US/VA",
+    "domain": "hydrology_aquifers",
+    "timestamp": "2026-08-15T13:36:59.721252Z",
+    "topic": "Shenandoah Valley Groundwater Monitoring Well 01",
+    "sources": [
+      "USGS National Water Information System",
+      "State Hydrology Department logs"
+    ]
+  },
+  {
+    "capsule_id": "20260815_135005_shenandoah_valley_karst_aquifer_baseline",
+    "scope": "US/VA",
+    "domain": "hydrology_aquifers",
+    "timestamp": "2026-08-15T13:50:05.942052Z",
+    "topic": "Shenandoah Valley Karst Aquifer Baseline",
+    "sources": [
+      "USGS Groundwater Watch",
+      "Virginia DEQ"
+    ]
+  },
+  {
+    "capsule_id": "20260815_135303_rappahannock_basin_groundwater_trends",
+    "scope": "US/VA",
+    "domain": "hydrology_aquifers",
+    "timestamp": "2026-08-15T13:53:03.173114Z",
+    "topic": "Rappahannock Basin Groundwater Trends",
+    "sources": [
+      "USGS Water-Data Report",
+      "Virginia Hydrology Archives"
+    ]
+  },
+  {
+    "capsule_id": "20260815_135006_rio_grande_basin_flow_and_allocation",
+    "scope": "GLOBAL/MEXICO_US_BORDER",
+    "domain": "surface_water",
+    "timestamp": "2026-08-15T13:50:06.000488Z",
+    "topic": "Rio Grande Basin Flow and Allocation",
+    "sources": [
+      "International Boundary and Water Commission (IBWC)"
+    ]
+  }
+]

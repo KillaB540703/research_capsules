@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ResearchCapsule",
+  "type": "object",
+  "properties": {
+    "capsule_id": { "type": "string" },
+    "scope": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "topic": { "type": "string" },
+    "findings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["capsule_id", "scope", "timestamp", "topic", "findings"]
+}

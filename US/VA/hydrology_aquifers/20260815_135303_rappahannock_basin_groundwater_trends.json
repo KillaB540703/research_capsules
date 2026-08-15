@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_135303_rappahannock_basin_groundwater_trends",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T13:53:03.173114Z",
+  "topic": "Rappahannock Basin Groundwater Trends",
+  "sources": [
+    "USGS Water-Data Report",
+    "Virginia Hydrology Archives"
+  ]
+}

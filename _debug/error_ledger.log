@@ -1,0 +1,2 @@
+[2026-08-15T14:07:39.661893Z] [GIT_SYNC_ERROR] Command '['git', 'add', '.']' returned non-zero exit status 128. | Context: 
+[2026-08-15T14:18:40.337200Z] [GIT_SYNC_ERROR] Command '['git', 'add', '.']' returned non-zero exit status 128. | Context: 

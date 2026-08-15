@@ -1,0 +1,10 @@
+{
+  "capsule_id": "20260815_135303_texas_statewide_reservoir_storage_summar",
+  "scope": "US/TX",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T13:53:03.193723Z",
+  "topic": "Texas Statewide Reservoir Storage Summary",
+  "sources": [
+    "Texas Water Development Board (TWDB) Daily Reservoir Report"
+  ]
+}

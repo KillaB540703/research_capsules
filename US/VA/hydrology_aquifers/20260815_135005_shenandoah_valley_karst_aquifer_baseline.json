@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_135005_shenandoah_valley_karst_aquifer_baseline",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T13:50:05.942052Z",
+  "topic": "Shenandoah Valley Karst Aquifer Baseline",
+  "sources": [
+    "USGS Groundwater Watch",
+    "Virginia DEQ"
+  ]
+}
