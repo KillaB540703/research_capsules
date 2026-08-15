@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105254_james_river_basin_macro-flow_upper_",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:52:54.079920Z",
+  "topic": "James River Basin Macro-Flow: Upper basin storage normal, mi",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
