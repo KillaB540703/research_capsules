@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105139_coastal_plain_unconfined_aquifer_sy",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:51:39.967882Z",
+  "topic": "Coastal Plain Unconfined Aquifer System (Middle Peninsula): ",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}

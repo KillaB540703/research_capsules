@@ -1,8 +1,8 @@
 # Master Research Summary
 
-*Compiled automatically on: 2026-08-15 10:51:34*
+*Compiled automatically on: 2026-08-15 10:51:43*
 
-Total indexed records: **25**
+Total indexed records: **26**
 
 ---
 
@@ -31,5 +31,6 @@ Total indexed records: **25**
 - **US/VA/surface_water/20260815_105056_southern_blue_ridge_watersheds_carr.json**
 - **US/VA/surface_water/20260815_105113_central_piedmont__james_river_basin.json**
 - **US/VA/surface_water/20260815_105121_southside_virginia_piedmont_dan_riv.json**
+- **US/VA/surface_water/20260815_105139_coastal_plain_unconfined_aquifer_sy.json**
 - **GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json**
 - **GLOBAL/GENERAL/hydrology_aquifers/20260815_103526_rappahannock_basin_groundwater_tren.json**
