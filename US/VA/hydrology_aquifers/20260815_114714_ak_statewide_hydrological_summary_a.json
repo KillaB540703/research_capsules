@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114714_ak_statewide_hydrological_summary_a",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T11:47:14.280334Z",
+  "topic": "AK statewide hydrological summary: Alaska glacial melt and w",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
