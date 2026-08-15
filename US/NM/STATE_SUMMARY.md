@@ -1,6 +1,6 @@
 # State Hydrological Ledger: NM
 
-*Compiled automatically on: 2026-08-15 11:50:40*
+*Compiled automatically on: 2026-08-15 11:50:51*
 
 ## Consolidated State Metrics
 - **State Status:** UNAVAILABLE AT THIS TIME
