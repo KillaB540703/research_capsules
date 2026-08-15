@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105216_northern_neck_peninsula_hydrology_s",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T10:52:16.809343Z",
+  "topic": "Northern Neck Peninsula Hydrology: Stable brackish-freshwate",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
