@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105226_potomac-shenandoah_basin_flow_analy",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:52:26.934690Z",
+  "topic": "Potomac-Shenandoah Basin Flow Analysis: Upstream tributary i",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
