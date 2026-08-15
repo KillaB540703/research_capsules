@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105149_confined_aquifer_system_hampton_roa",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T10:51:49.149833Z",
+  "topic": "Confined Aquifer System (Hampton Roads/Norfolk): Industrial ",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
