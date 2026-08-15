@@ -1,6 +1,6 @@
 # State Water Balance Summary: VA
 
-*Generated Automatically: 2026-08-15 10:44:07*
+*Generated Automatically: 2026-08-15 10:53:03*
 
 ## Statewide Highlights
 - **Shenandoah Valley Karst:** Rapid conduit drainage during dry spells, with observed localized drops (~1.2 ft) near agricultural wells.
