@@ -1,6 +1,6 @@
 # State Hydrological Ledger: NY
 
-*Compiled automatically on: 2026-08-15 11:59:15*
+*Compiled automatically on: 2026-08-15 11:59:25*
 
 ## Consolidated State Metrics
 - **State Status:** UNAVAILABLE AT THIS TIME

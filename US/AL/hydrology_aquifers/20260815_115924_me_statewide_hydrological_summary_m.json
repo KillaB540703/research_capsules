@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_115924_me_statewide_hydrological_summary_m",
+  "scope": "US/AL",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T11:59:24.418713Z",
+  "topic": "ME statewide hydrological summary: Maine lake storage and no",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
