@@ -1,8 +1,8 @@
 # Master Research Summary
 
-*Compiled automatically on: 2026-08-15 10:50:32*
+*Compiled automatically on: 2026-08-15 10:50:42*
 
-Total indexed records: **18**
+Total indexed records: **19**
 
 ---
 
@@ -24,5 +24,6 @@ Total indexed records: **18**
 - **US/VA/surface_water/20260815_104953_shenandoah_valley_karst_aquifer_sou.json**
 - **US/VA/surface_water/20260815_105005_ridge_and_valley_headwater_streams_.json**
 - **US/VA/surface_water/20260815_105017_cumberland_plateau_groundwater_basi.json**
+- **US/VA/surface_water/20260815_105039_blue_ridge_mountain_front_recharge_.json**
 - **GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json**
 - **GLOBAL/GENERAL/hydrology_aquifers/20260815_103526_rappahannock_basin_groundwater_tren.json**

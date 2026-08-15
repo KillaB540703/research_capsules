@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105039_blue_ridge_mountain_front_recharge_",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:50:39.865103Z",
+  "topic": "Blue Ridge Mountain Front Recharge Zone: Heavy forest canopy",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
