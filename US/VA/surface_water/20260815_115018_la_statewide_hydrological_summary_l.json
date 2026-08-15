@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115018_la_statewide_hydrological_summary_l",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:50:18.257438Z",
+  "topic": "LA statewide hydrological summary: Louisiana deltaic surface",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
