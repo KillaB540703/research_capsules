@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_115711_hi_statewide_hydrological_summary_h",
+  "scope": "US/AL",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T11:57:11.549382Z",
+  "topic": "HI statewide hydrological summary: Hawaii basal lens groundw",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
