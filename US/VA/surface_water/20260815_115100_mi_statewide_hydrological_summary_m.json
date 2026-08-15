@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115100_mi_statewide_hydrological_summary_m",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:51:00.660557Z",
+  "topic": "MI statewide hydrological summary: Michigan great lakes basi",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
