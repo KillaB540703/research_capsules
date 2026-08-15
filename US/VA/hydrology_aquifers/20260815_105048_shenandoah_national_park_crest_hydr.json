@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105048_shenandoah_national_park_crest_hydr",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T10:50:48.165516Z",
+  "topic": "Shenandoah National Park Crest Hydrology: Above-average summ",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
