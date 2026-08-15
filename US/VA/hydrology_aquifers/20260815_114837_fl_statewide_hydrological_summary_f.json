@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114837_fl_statewide_hydrological_summary_f",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T11:48:38.000123Z",
+  "topic": "FL statewide hydrological summary: Florida regional aquifer ",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
