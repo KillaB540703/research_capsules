@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_120349_or_statewide_hydrological_summary_o",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T12:03:49.488308Z",
+  "topic": "OR statewide hydrological summary: Oregon cascade snowpack r",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
