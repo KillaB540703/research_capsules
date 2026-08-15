@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114656_al_statewide_hydrological_summary_a",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:46:56.793888Z",
+  "topic": "AL statewide hydrological summary: Alabama surface water and",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
