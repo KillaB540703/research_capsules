@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_104953_shenandoah_valley_karst_aquifer_sou",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:49:53.501659Z",
+  "topic": "Shenandoah Valley Karst Aquifer South: Augusta and Rockbridg",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
