@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115236_nj_statewide_hydrological_summary_n",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:52:36.404537Z",
+  "topic": "NJ statewide hydrological summary: New Jersey northern reser",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
