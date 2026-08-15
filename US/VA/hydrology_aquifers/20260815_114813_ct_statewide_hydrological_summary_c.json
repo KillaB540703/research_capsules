@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114813_ct_statewide_hydrological_summary_c",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T11:48:13.449335Z",
+  "topic": "CT statewide hydrological summary: Connecticut watershed lev",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
