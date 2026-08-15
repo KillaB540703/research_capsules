@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115146_mt_statewide_hydrological_summary_m",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:51:46.310775Z",
+  "topic": "MT statewide hydrological summary: Montana mountain snowpack",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
