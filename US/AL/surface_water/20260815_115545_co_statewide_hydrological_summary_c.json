@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_115545_co_statewide_hydrological_summary_c",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:55:45.771671Z",
+  "topic": "CO statewide hydrological summary: Colorado headwater stream",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
