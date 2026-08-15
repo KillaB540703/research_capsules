@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114944_ia_statewide_hydrological_summary_i",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:49:44.647889Z",
+  "topic": "IA statewide hydrological summary: Iowa agricultural basin s",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
