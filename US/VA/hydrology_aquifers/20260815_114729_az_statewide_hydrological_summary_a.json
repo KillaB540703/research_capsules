@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114729_az_statewide_hydrological_summary_a",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T11:47:29.840877Z",
+  "topic": "AZ statewide hydrological summary: Arizona groundwater reser",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
