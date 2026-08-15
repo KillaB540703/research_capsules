@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114910_id_statewide_hydrological_summary_i",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:49:10.687392Z",
+  "topic": "ID statewide hydrological summary: Idaho snake river basin a",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
