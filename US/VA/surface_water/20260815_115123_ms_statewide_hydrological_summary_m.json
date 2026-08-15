@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115123_ms_statewide_hydrological_summary_m",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:51:23.817490Z",
+  "topic": "MS statewide hydrological summary: Mississippi alluvial aqui",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
