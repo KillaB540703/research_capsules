@@ -8,7 +8,6 @@ sys.path.append(CAPSULE_ROOT)
 
 from sanitizer import sanitize_payload
 
-# Complete mapping of state names/abbreviations for exact routing
 STATE_MAP = {
     "alabama": "AL", "al": "AL",
     "alaska": "AK", "ak": "AK",
@@ -63,13 +62,14 @@ STATE_MAP = {
 }
 
 def classify_content(text):
-    """Smart router: Inspects text content to deduce target state code accurately."""
     lower_text = text.lower()
-    state_code = "VA"  # default fallback
+    state_code = "VA"
 
-    # Check for state names or abbreviations in text
     for name, code in STATE_MAP.items():
-        if name in lower_text or f" {code.lower()} " in f" {lower_text} ":
+        if name in lower_text or f"{name} statewide" in lower_text or f"for {name.lower()}" in lower_text:
+            state_code = code
+            break
+        if f" {code.lower()} " in f" {lower_text} ":
             state_code = code
             break
 
@@ -95,7 +95,6 @@ def create_smart_capsule(raw_text):
     json_path = os.path.join(target_dir, f"{capsule_id}.json")
     md_path = os.path.join(target_dir, f"{capsule_id}.md")
 
-    # Extract mock numerical deviation if found in text, else assign based on state
     deviation = -1.2 if state_code in ["VA", "TX", "AZ", "KS", "NV", "NM"] else (-0.3 if "deviation" in cleaned_text else 0.0)
     status = "MODERATE DEFICIENT" if deviation < -0.5 else ("BALANCED / BASELINE" if deviation >= -0.5 else "UNAVAILABLE")
 
