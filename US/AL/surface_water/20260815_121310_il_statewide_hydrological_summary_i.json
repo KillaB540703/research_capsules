@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_121310_il_statewide_hydrological_summary_i",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T12:13:10.318929Z",
+  "topic": "IL statewide hydrological summary: Illinois river basin flow",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
