@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_120139_nh_statewide_hydrological_summary_n",
+  "scope": "US/AL",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T12:01:39.381504Z",
+  "topic": "NH statewide hydrological summary: New Hampshire highland wa",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
