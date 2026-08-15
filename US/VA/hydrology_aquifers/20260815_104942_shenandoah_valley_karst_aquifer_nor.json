@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_104942_shenandoah_valley_karst_aquifer_nor",
+  "scope": "US/VA",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T10:49:42.435025Z",
+  "topic": "Shenandoah Valley Karst Aquifer North: Rockingham and Freder",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
