@@ -1,0 +1,11 @@
+{
+  "capsule_id": "20260815_105245_york_river_basin_watershed_storage_",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T10:52:45.094516Z",
+  "topic": "York River Basin Watershed Storage: Pamunkey and Mattaponi s",
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Automated Field Notes Extraction"
+  ]
+}
