@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114824_de_statewide_hydrological_summary_d",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:48:24.083881Z",
+  "topic": "DE statewide hydrological summary: Delaware coastal plain su",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
