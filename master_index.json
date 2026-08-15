@@ -40,7 +40,7 @@
         "findings"
       ]
     },
-    "indexed_at": "2026-08-15T10:28:44.142793"
+    "indexed_at": "2026-08-15T10:34:13.955231"
   },
   {
     "path": "US/TX/hydrology_aquifers/20260815_135005_edwards_aquifer_recharge_zone_status.json",
@@ -55,7 +55,7 @@
         "Texas Water Development Board"
       ]
     },
-    "indexed_at": "2026-08-15T10:28:45.845972"
+    "indexed_at": "2026-08-15T10:34:15.708260"
   },
   {
     "path": "US/TX/surface_water/20260815_135303_texas_statewide_reservoir_storage_summar.json",
@@ -69,7 +69,7 @@
         "Texas Water Development Board (TWDB) Daily Reservoir Report"
       ]
     },
-    "indexed_at": "2026-08-15T10:28:45.852379"
+    "indexed_at": "2026-08-15T10:34:15.715371"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_133659_shenandoah_valley_groundwater_monitoring_well_01.json",
@@ -84,7 +84,7 @@
         "State Hydrology Department logs"
       ]
     },
-    "indexed_at": "2026-08-15T10:28:45.927313"
+    "indexed_at": "2026-08-15T10:34:15.780739"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_135005_shenandoah_valley_karst_aquifer_baseline.json",
@@ -99,7 +99,7 @@
         "Virginia DEQ"
       ]
     },
-    "indexed_at": "2026-08-15T10:28:45.931729"
+    "indexed_at": "2026-08-15T10:34:15.784375"
   },
   {
     "path": "US/VA/hydrology_aquifers/20260815_135303_rappahannock_basin_groundwater_trends.json",
@@ -114,7 +114,18 @@
         "Virginia Hydrology Archives"
       ]
     },
-    "indexed_at": "2026-08-15T10:28:45.936118"
+    "indexed_at": "2026-08-15T10:34:15.788106"
+  },
+  {
+    "path": "US/VA/hydrology_aquifers/20260815_103413_shenandoah_valley_karst_aquifer_mon.json",
+    "data": {
+      "title": "Shenandoah Valley karst aquifer monitoring notes: ",
+      "region": "US/VA",
+      "category": "hydrology_aquifers",
+      "timestamp": "2026-08-15T10:34:13.805299",
+      "content": "Shenandoah Valley karst aquifer monitoring notes: water table levels showing a 1.2 foot drop near local agricultural wells during the summer dry spell."
+    },
+    "indexed_at": "2026-08-15T10:34:15.791036"
   },
   {
     "path": "GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json",
@@ -128,6 +139,6 @@
         "International Boundary and Water Commission (IBWC)"
       ]
     },
-    "indexed_at": "2026-08-15T10:28:46.096256"
+    "indexed_at": "2026-08-15T10:34:15.918229"
   }
 ]
