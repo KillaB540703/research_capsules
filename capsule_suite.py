@@ -1,113 +1,91 @@
 import os
-import sys
 import json
 import subprocess
 from datetime import datetime
 
 CAPSULE_ROOT = os.path.expanduser("~/storage/external-1/research_capsules")
-VALID_DOMAINS = ["hydrology_aquifers", "surface_water", "sea_levels", "metadata", "_extensions"]
+DEBUG_LOG = os.path.join(CAPSULE_ROOT, "_debug", "error_ledger.log")
 
-def log_debug(error_type, message, context=""):
-    debug_dir = os.path.join(CAPSULE_ROOT, "_debug")
-    os.makedirs(debug_dir, exist_ok=True)
-    timestamp = datetime.utcnow().isoformat() + "Z"
-    log_path = os.path.join(debug_dir, "error_ledger.log")
-    
-    log_entry = f"[{timestamp}] [{error_type.upper()}] {message} | Context: {context}\n"
-    with open(log_path, "a") as f:
-        f.write(log_entry)
-    print(f"[!] Debug logged to _debug/error_ledger.log")
+def log_error(context, error):
+    os.makedirs(os.path.dirname(DEBUG_LOG), exist_ok=True)
+    with open(DEBUG_LOG, "a") as f:
+        f.write(f"[{datetime.now().isoformat()}] {context}: {str(error)}\n")
 
-def create_entry(scope, domain, topic, findings_text, sources=None):
+def git_sync(commit_message="Routine automated capsule sync"):
+    """Automatically stages, commits, and pushes changes to origin master, handling offline states gracefully."""
+    os.chdir(CAPSULE_ROOT)
     try:
-        scope_clean = scope.strip("/").upper()
-        if domain not in VALID_DOMAINS:
-            print(f"[-] Warning: '{domain}' unmapped. Routing to '_extensions'.")
-            domain = "_extensions"
-            
-        target_dir = os.path.join(CAPSULE_ROOT, scope_clean, domain)
-        os.makedirs(target_dir, exist_ok=True)
+        # Check if there are any changes to commit
+        status_res = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, check=True)
+        if not status_res.stdout.strip():
+            print("[*] Routine Sync: Working tree clean. No changes to sync.")
+            return True
+
+        # Stage all changes
+        subprocess.run(["git", "add", "."], check=True)
         
-        timestamp = datetime.utcnow().isoformat() + "Z"
-        slug = "".join([c if c.isalnum() else "_" for c in topic.lower()])
-        base_filename = f"{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}_{slug[:40]}"
-        
-        json_path = os.path.join(target_dir, f"{base_filename}.json")
-        md_path = os.path.join(target_dir, f"{base_filename}.md")
-        
-        payload = {
-            "capsule_id": base_filename,
-            "scope": scope_clean,
-            "domain": domain,
-            "timestamp": timestamp,
-            "topic": topic,
-            "sources": sources or []
-        }
-        
-        with open(json_path, 'w') as jf:
-            json.dump(payload, jf, indent=2)
-            
-        with open(md_path, 'w') as mf:
-            mf.write(f"# Research Entry: {topic}\n")
-            mf.write(f"- **Scope:** {scope_clean}\n")
-            mf.write(f"- **Domain:** {domain}\n")
-            mf.write(f"- **Timestamp:** {timestamp}\n\n")
-            mf.write(f"## Findings\n{findings_text}\n")
-            
-        print(f"[+] Capsule successfully written: {scope_clean}/{domain}")
+        # Commit changes
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+        print(f"[+] Routine Sync: Committed changes with message: '{commit_message}'")
+
+        # Attempt push to remote
+        push_res = subprocess.run(["git", "push", "origin", "master"], capture_output=True, text=True)
+        if push_res.returncode == 0:
+            print("[+] Routine Sync: Successfully pushed to GitHub origin/master.")
+            return True
+        else:
+            print("[-] Routine Sync: Push failed (possibly offline). Changes saved locally.")
+            log_error("git_push_offline", push_res.stderr)
+            return False
     except Exception as e:
-        log_debug("INGESTION_ERROR", str(e), context=f"Scope: {scope}, Topic: {topic}")
+        print(f"[-] Routine Sync Error: {e}")
+        log_error("git_sync_exception", e)
+        return False
 
 def compile_master():
+    """Compiles all regional JSON capsules into a master index and summary."""
+    os.chdir(CAPSULE_ROOT)
     print("=== Compiling Master Index & Summary ===")
-    master_index = []
     
-    for path, subdirs, files in os.walk(CAPSULE_ROOT):
-        if "_debug" in path or "schema" in path or "__pycache__" in path:
+    records = []
+    for root, dirs, files in os.walk(CAPSULE_ROOT):
+        # Skip hidden directories like .git or _debug
+        if any(part.startswith('.') or part.startswith('_') for part in root.split(os.sep)):
             continue
-        for name in files:
-            if name.endswith(".json") and name != "master_index.json":
-                full_path = os.path.join(path, name)
+        for file in files:
+            if file.endswith(".json") and file != "master_index.json":
+                file_path = os.path.join(root, file)
                 try:
-                    with open(full_path, "r") as f:
+                    with open(file_path, "r") as f:
                         data = json.load(f)
-                        master_index.append(data)
+                        rel_path = os.path.relpath(file_path, CAPSULE_ROOT)
+                        records.append({
+                            "path": rel_path,
+                            "data": data,
+                            "indexed_at": datetime.now().isoformat()
+                        })
                 except Exception as e:
-                    log_debug("COMPILE_ERROR", str(e), context=full_path)
-                    
-    master_json_path = os.path.join(CAPSULE_ROOT, "master_index.json")
-    with open(master_json_path, "w") as mf:
-        json.dump(master_index, mf, indent=2)
-        
-    master_md_path = os.path.join(CAPSULE_ROOT, "MASTER_SUMMARY.md")
-    with open(master_md_path, "w") as mmf:
-        mmf.write("# Master Research Summary Dashboard\n")
-        mmf.write(f"**Last Compiled:** {datetime.utcnow().isoformat()}Z\n")
-        mmf.write(f"**Total Active Capsules:** {len(master_index)}\n\n")
-        mmf.write("## Index Overview\n")
-        mmf.write("| Timestamp | Scope | Domain | Topic |\n")
-        mmf.write("|---|---|---|---|\n")
-        for item in sorted(master_index, key=lambda x: x.get('timestamp', ''), reverse=True):
-            mmf.write(f"| {item.get('timestamp')} | {item.get('scope')} | {item.get('domain')} | {item.get('topic')} |\n")
-            
-    print(f"[+] Master summary compiled successfully: {len(master_index)} total records indexed.")
+                    log_error(f"compile_read_{file}", e)
 
-def git_sync(commit_message="Auto-sync research capsules"):
-    print("=== Syncing with GitHub ===")
-    try:
-        os.chdir(CAPSULE_ROOT)
-        subprocess.run(["git", "add", "."], check=True)
-        # Check if there are changes to commit
-        status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, check=True)
-        if not status.stdout.strip():
-            print("[*] No changes to commit. Repository is already up to date.")
-            return
-        subprocess.run(["git", "commit", "-m", commit_message], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print("[+] Successfully pushed capsule updates to GitHub.")
-    except Exception as e:
-        log_debug("GIT_SYNC_ERROR", str(e))
-        print("[-] Git sync failed. Logged to _debug/error_ledger.log")
+    # Write master index json
+    master_index_path = os.path.join(CAPSULE_ROOT, "master_index.json")
+    with open(master_index_path, "w") as f:
+        json.dump(records, f, indent=2)
+
+    # Write master summary markdown
+    master_summary_path = os.path.join(CAPSULE_ROOT, "MASTER_SUMMARY.md")
+    with open(master_summary_path, "w") as f:
+        f.write("# Master Research Summary\n\n")
+        f.write(f"*Compiled automatically on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n")
+        f.write(f"Total indexed records: **{len(records)}**\n\n")
+        f.write("---\n\n## Indexed Capsules\n\n")
+        for rec in records:
+            f.write(f"- **{rec['path']}**\n")
+
+    print(f"[+] Master summary compiled successfully: {len(records)} total records indexed.")
+    
+    # TRIGGER ROUTINE AUTO-SYNC UPON SUCCESSFUL COMPILATION
+    git_sync("Routine Auto-Sync: Master index compilation update")
 
 if __name__ == "__main__":
-    print("Capsule Suite Module Loaded.")
+    compile_master()

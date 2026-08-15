@@ -1,66 +1,133 @@
 [
   {
-    "capsule_id": "20260815_135005_edwards_aquifer_recharge_zone_status",
-    "scope": "US/TX",
-    "domain": "hydrology_aquifers",
-    "timestamp": "2026-08-15T13:50:05.978429Z",
-    "topic": "Edwards Aquifer Recharge Zone Status",
-    "sources": [
-      "Edwards Aquifer Authority",
-      "Texas Water Development Board"
-    ]
+    "path": "schema/capsule_schema.json",
+    "data": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "ResearchCapsule",
+      "type": "object",
+      "properties": {
+        "capsule_id": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "topic": {
+          "type": "string"
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "capsule_id",
+        "scope",
+        "timestamp",
+        "topic",
+        "findings"
+      ]
+    },
+    "indexed_at": "2026-08-15T10:28:44.142793"
   },
   {
-    "capsule_id": "20260815_135303_texas_statewide_reservoir_storage_summar",
-    "scope": "US/TX",
-    "domain": "surface_water",
-    "timestamp": "2026-08-15T13:53:03.193723Z",
-    "topic": "Texas Statewide Reservoir Storage Summary",
-    "sources": [
-      "Texas Water Development Board (TWDB) Daily Reservoir Report"
-    ]
+    "path": "US/TX/hydrology_aquifers/20260815_135005_edwards_aquifer_recharge_zone_status.json",
+    "data": {
+      "capsule_id": "20260815_135005_edwards_aquifer_recharge_zone_status",
+      "scope": "US/TX",
+      "domain": "hydrology_aquifers",
+      "timestamp": "2026-08-15T13:50:05.978429Z",
+      "topic": "Edwards Aquifer Recharge Zone Status",
+      "sources": [
+        "Edwards Aquifer Authority",
+        "Texas Water Development Board"
+      ]
+    },
+    "indexed_at": "2026-08-15T10:28:45.845972"
   },
   {
-    "capsule_id": "20260815_133659_shenandoah_valley_groundwater_monitoring_well_01",
-    "scope": "US/VA",
-    "domain": "hydrology_aquifers",
-    "timestamp": "2026-08-15T13:36:59.721252Z",
-    "topic": "Shenandoah Valley Groundwater Monitoring Well 01",
-    "sources": [
-      "USGS National Water Information System",
-      "State Hydrology Department logs"
-    ]
+    "path": "US/TX/surface_water/20260815_135303_texas_statewide_reservoir_storage_summar.json",
+    "data": {
+      "capsule_id": "20260815_135303_texas_statewide_reservoir_storage_summar",
+      "scope": "US/TX",
+      "domain": "surface_water",
+      "timestamp": "2026-08-15T13:53:03.193723Z",
+      "topic": "Texas Statewide Reservoir Storage Summary",
+      "sources": [
+        "Texas Water Development Board (TWDB) Daily Reservoir Report"
+      ]
+    },
+    "indexed_at": "2026-08-15T10:28:45.852379"
   },
   {
-    "capsule_id": "20260815_135005_shenandoah_valley_karst_aquifer_baseline",
-    "scope": "US/VA",
-    "domain": "hydrology_aquifers",
-    "timestamp": "2026-08-15T13:50:05.942052Z",
-    "topic": "Shenandoah Valley Karst Aquifer Baseline",
-    "sources": [
-      "USGS Groundwater Watch",
-      "Virginia DEQ"
-    ]
+    "path": "US/VA/hydrology_aquifers/20260815_133659_shenandoah_valley_groundwater_monitoring_well_01.json",
+    "data": {
+      "capsule_id": "20260815_133659_shenandoah_valley_groundwater_monitoring_well_01",
+      "scope": "US/VA",
+      "domain": "hydrology_aquifers",
+      "timestamp": "2026-08-15T13:36:59.721252Z",
+      "topic": "Shenandoah Valley Groundwater Monitoring Well 01",
+      "sources": [
+        "USGS National Water Information System",
+        "State Hydrology Department logs"
+      ]
+    },
+    "indexed_at": "2026-08-15T10:28:45.927313"
   },
   {
-    "capsule_id": "20260815_135303_rappahannock_basin_groundwater_trends",
-    "scope": "US/VA",
-    "domain": "hydrology_aquifers",
-    "timestamp": "2026-08-15T13:53:03.173114Z",
-    "topic": "Rappahannock Basin Groundwater Trends",
-    "sources": [
-      "USGS Water-Data Report",
-      "Virginia Hydrology Archives"
-    ]
+    "path": "US/VA/hydrology_aquifers/20260815_135005_shenandoah_valley_karst_aquifer_baseline.json",
+    "data": {
+      "capsule_id": "20260815_135005_shenandoah_valley_karst_aquifer_baseline",
+      "scope": "US/VA",
+      "domain": "hydrology_aquifers",
+      "timestamp": "2026-08-15T13:50:05.942052Z",
+      "topic": "Shenandoah Valley Karst Aquifer Baseline",
+      "sources": [
+        "USGS Groundwater Watch",
+        "Virginia DEQ"
+      ]
+    },
+    "indexed_at": "2026-08-15T10:28:45.931729"
   },
   {
-    "capsule_id": "20260815_135006_rio_grande_basin_flow_and_allocation",
-    "scope": "GLOBAL/MEXICO_US_BORDER",
-    "domain": "surface_water",
-    "timestamp": "2026-08-15T13:50:06.000488Z",
-    "topic": "Rio Grande Basin Flow and Allocation",
-    "sources": [
-      "International Boundary and Water Commission (IBWC)"
-    ]
+    "path": "US/VA/hydrology_aquifers/20260815_135303_rappahannock_basin_groundwater_trends.json",
+    "data": {
+      "capsule_id": "20260815_135303_rappahannock_basin_groundwater_trends",
+      "scope": "US/VA",
+      "domain": "hydrology_aquifers",
+      "timestamp": "2026-08-15T13:53:03.173114Z",
+      "topic": "Rappahannock Basin Groundwater Trends",
+      "sources": [
+        "USGS Water-Data Report",
+        "Virginia Hydrology Archives"
+      ]
+    },
+    "indexed_at": "2026-08-15T10:28:45.936118"
+  },
+  {
+    "path": "GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json",
+    "data": {
+      "capsule_id": "20260815_135006_rio_grande_basin_flow_and_allocation",
+      "scope": "GLOBAL/MEXICO_US_BORDER",
+      "domain": "surface_water",
+      "timestamp": "2026-08-15T13:50:06.000488Z",
+      "topic": "Rio Grande Basin Flow and Allocation",
+      "sources": [
+        "International Boundary and Water Commission (IBWC)"
+      ]
+    },
+    "indexed_at": "2026-08-15T10:28:46.096256"
   }
 ]

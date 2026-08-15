@@ -1,13 +1,17 @@
-# Master Research Summary Dashboard
-**Last Compiled:** 2026-08-15T14:19:59.849718Z
-**Total Active Capsules:** 6
+# Master Research Summary
 
-## Index Overview
-| Timestamp | Scope | Domain | Topic |
-|---|---|---|---|
-| 2026-08-15T13:53:03.193723Z | US/TX | surface_water | Texas Statewide Reservoir Storage Summary |
-| 2026-08-15T13:53:03.173114Z | US/VA | hydrology_aquifers | Rappahannock Basin Groundwater Trends |
-| 2026-08-15T13:50:06.000488Z | GLOBAL/MEXICO_US_BORDER | surface_water | Rio Grande Basin Flow and Allocation |
-| 2026-08-15T13:50:05.978429Z | US/TX | hydrology_aquifers | Edwards Aquifer Recharge Zone Status |
-| 2026-08-15T13:50:05.942052Z | US/VA | hydrology_aquifers | Shenandoah Valley Karst Aquifer Baseline |
-| 2026-08-15T13:36:59.721252Z | US/VA | hydrology_aquifers | Shenandoah Valley Groundwater Monitoring Well 01 |
+*Compiled automatically on: 2026-08-15 10:28:46*
+
+Total indexed records: **7**
+
+---
+
+## Indexed Capsules
+
+- **schema/capsule_schema.json**
+- **US/TX/hydrology_aquifers/20260815_135005_edwards_aquifer_recharge_zone_status.json**
+- **US/TX/surface_water/20260815_135303_texas_statewide_reservoir_storage_summar.json**
+- **US/VA/hydrology_aquifers/20260815_133659_shenandoah_valley_groundwater_monitoring_well_01.json**
+- **US/VA/hydrology_aquifers/20260815_135005_shenandoah_valley_karst_aquifer_baseline.json**
+- **US/VA/hydrology_aquifers/20260815_135303_rappahannock_basin_groundwater_trends.json**
+- **GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json**
