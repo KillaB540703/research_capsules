@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115308_ny_statewide_hydrological_summary_n",
+  "scope": "US/VA",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:53:08.132892Z",
+  "topic": "NY statewide hydrological summary: New York upstate reservoi",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
