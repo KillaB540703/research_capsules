@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_120026_ms_statewide_hydrological_summary_m",
+  "scope": "US/AL",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T12:00:26.541899Z",
+  "topic": "MS statewide hydrological summary: Mississippi alluvial aqui",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
