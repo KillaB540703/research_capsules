@@ -1,0 +1,13 @@
+{
+  "capsule_id": "20260815_122212_vt_statewide_hydrological_summary_v",
+  "scope": "US/AL",
+  "domain": "hydrology_aquifers",
+  "timestamp": "2026-08-15T12:22:12.554110Z",
+  "topic": "VT statewide hydrological summary: Vermont northern watershe",
+  "deviation_ft": -0.3,
+  "status": "BALANCED / BASELINE",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Batch Ingest Pipeline"
+  ]
+}
