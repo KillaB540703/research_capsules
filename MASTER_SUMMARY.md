@@ -1,8 +1,8 @@
 # Master Research Summary
 
-*Compiled automatically on: 2026-08-15 10:35:35*
+*Compiled automatically on: 2026-08-15 10:35:43*
 
-Total indexed records: **11**
+Total indexed records: **12**
 
 ---
 
@@ -17,5 +17,6 @@ Total indexed records: **11**
 - **US/VA/hydrology_aquifers/20260815_103413_shenandoah_valley_karst_aquifer_mon.json**
 - **US/VA/hydrology_aquifers/20260815_103517_shenandoah_valley_karst_aquifer_bas.json**
 - **US/VA/surface_water/20260815_103533_james_river_watershed_flow_and_stor.json**
+- **US/VA/surface_water/20260815_103541_roanoke_river_basin_hydrological_st.json**
 - **GLOBAL/MEXICO_US_BORDER/surface_water/20260815_135006_rio_grande_basin_flow_and_allocation.json**
 - **GLOBAL/GENERAL/hydrology_aquifers/20260815_103526_rappahannock_basin_groundwater_tren.json**
