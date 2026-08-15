@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_114459_texas_statewide_reservoir_storage_s",
+  "scope": "US/TX",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:44:59.356778Z",
+  "topic": "Texas statewide reservoir storage summary: major water stora",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
