@@ -1,0 +1,12 @@
+{
+  "capsule_id": "20260815_115247_nm_statewide_hydrological_summary_n",
+  "scope": "GLOBAL/MEXICO_US_BORDER",
+  "domain": "surface_water",
+  "timestamp": "2026-08-15T11:52:47.441926Z",
+  "topic": "NM statewide hydrological summary: New Mexico Rio Grande bas",
+  "sanitizer_flagged": true,
+  "sources": [
+    "Smart Ingest Research Pipeline",
+    "Sanitized Field Notes Extraction"
+  ]
+}
